@@ -1,0 +1,37 @@
+#REALIZADO POR: 
+# JUAN CARLOS SANMIGUEL
+# LUCAS MEIRELLES
+# GONZALO FERNÁNDEZ
+# ANA PADILLA
+# ANAÍS GONZÁLEZ
+
+----- EmojiCipher.py ------
+
+Un programa en Python que implementa un sistema de codificación y decodificación
+usando emojis como medio de representación.
+Objetivo: Crear un sistema que codifique un texto usando emojis y pueda descodificarlo usando
+una clave generada por el programa.
+Funcionalidades:
+    - Traductor bidireccional de texto a emoji 
+    - Juego de adivinar frases a partir de emoticono 
+    - Sugestor de emoticono según palabra 
+    - lector de txt que reemplace palabras por emojis
+El código debe está desarrollado en Python e inclui funciones para cada funcionalidad mencionada.
+
+----------------------------------------
+Prompts:
+
+Dame una funcion que codifique un texto usando emojis y pueda descodificarlo usando una clave generada por el programa.
+
+Desarrollar un programa en Python que implemente un sistema de codificación y decodificación usando emojis como medio de representación. 
+(Incluía las funcionalidades requeridas y comentarios sobre entendibilidad para alumnos)
+
+cambia el siguiente código para que se vea visualmente en una ventanita (seguido del código original con import random,
+ import sys, import emoji y funciones de codificación/decodificación)
+
+la ventana emergente todavía no sale. Que pasa?
+
+
+quiero que me actualizes el código para que haya una función en la que se genera un texto con emojis y
+ tenemos que adivinar la frase. Crea también una que sea nombre de películas que tenemos que adivinar 
+ según el emoji. Si después de 3 intentos no se descubre, fin de juego. MANTÉN LAS FUNCIONALIDADES ACTUALES
