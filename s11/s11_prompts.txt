@@ -1,0 +1,26 @@
+#REALIZADO POR: 
+# JUAN CARLOS SANMIGUEL
+# GONZALO FERNÁNDEZ
+# ANA PADILLA
+# ANAÍS GONZÁLEZ
+# DANIEL RAMOS JIMÉNEZ
+
+----- EmojiCipher.py ------
+Cosas a mejorar en este S11:
+    - Guardar y cargar claves desde archivo
+    - Agregar más emojis a la lista para generar claves más seguras
+    - Mejorar la interfaz gráfica con más estilos y organización
+    - Mejorar minijuegos (pistas y no repetir misma frase dos veces seguidas)
+    - Validar entrada antes de codificar/decodificar (si está vacío o no)
+    - Indicar en la interfaz si hay clave cargada/generada
+    
+----------------------------------------
+Prompts:
+    - Indícame nuevas mejoras para mi programa en python
+    - Quiero que, con este código, se valide la  entrada antes de codificar/decodificar (si está vacío o no) y 
+    se muestre en un mensaje de error.
+    - Ayúdame a implementar esta mejora: Agregar más emojis a la lista para generar claves más seguras. No me cambies los nombres de las funciones que tengo, 
+    solo implementa esa mejora y dame el codigo completo con eso implementado
+    - Hazme que con el codigo que te he mandado, mediante funciones, y explicadomelo todo paso por paso que cuando falles una vez en adivinar 
+    la palabra te de una pista y que cuando falles por segunda vez se acabe el juego.
+    - Implementa esto en mi código una mejora que indique en la interfaz si hay clave cargada/generada. Explícame cada paso añadido.
