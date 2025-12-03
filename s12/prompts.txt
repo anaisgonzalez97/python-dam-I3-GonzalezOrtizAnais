@@ -1,0 +1,33 @@
+
+#REALIZADO POR:
+# JUAN CARLOS SANMIGUEL
+# GONZALO FERNÁNDEZ
+# ANA PADILLA
+# ANAÍS GONZÁLEZ
+# DANIEL RAMOS JIMÉNEZ
+# LUCAS MEIRELLES THOMPSON
+
+----- Codigo.py ------
+
+- Corrige el prompt para que se lea mejor teniendo en cuenta el siguiente código.
+Cámbialo y añade una nueva opción de juego llamada “Identifica el emoji” o algo similar,
+junto con una función que haga lo siguiente: cuando el usuario elija el nuevo juego,
+se le mostrará un emoji tomado de una lista muy grande y deberá adivinar su nombre.
+Conforme se equivoque, se revelará una letra del nombre del emoji en pantalla,
+hasta que gane o se muestren todas las letras de la palabra y pierda.
+
+- Se le ha pasado cada función a la IA para que las explique y nos de comentarios
+
+------ Cosas implementadas ------
+
+Mejoras de limpieza de código:
+- Nombres de variables y funciones claros
+- Try/except
+- Comentarios aclaratorios
+
+Mejoras funcionales en S12:
+- Añadir un historial de codificaciones/decodificaciones realizadas.
+- Permitir exportar el historial a un archivo TXT.
+- Mejorar la función de mostrar clave, ahora se muestra ordenada.
+Además, ahora se muestran correctamente todos los emojis, antes había algunos que no se detectaban correctamente.
+- Nuevo minijuego añadido (Adivinar nombre de emoji por cantidad de letras)
