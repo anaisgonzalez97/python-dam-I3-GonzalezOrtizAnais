@@ -1,0 +1,45 @@
+                                                                SESIÓN 13
+
+En primer lugar, estas mejoras darían error en el código generado anteriormente debido a que se han cambiado nombres de funciones y variables y, asimismo, se han creado más 
+funciones de las que había antes.
+
+
+En segundo lugar, voy a proceder a explicar las mejoras y la razón por la que he considerado que había que aplicarlas:
+
+    1ª MEJORA
+
+En codigo.py, encontramos el método "emoji_translate" la cual incluye muchos elementos de código. Por ello, las he dividido en distintas funciones 
+para luego llamarlas desde otra función más general. Esto mejora la legibilidad y hace que sea más fácil modificar cada parte del código de manera 
+independiente.
+
+    2ª MEJORA
+
+En el mismo método mencionado anteriromente del codigo.py, encontramos la variable texto la cual encuentro muy ambigua y confusa. Por tanto, decido 
+cambiarle el nombre a "input_text" para que quede claro que es el texto introducido por el usuario en la aplicación. Antes podía dar a entender que 
+en 
+"for lang in ["es", "alias"]:
+            em = emoji.emojize(f":{text}:", language=lang) 
+            if em != f":{text}:": #si es distinto a lo dicho por el usuario, retorna emoji
+                return em "
+que text podría significar formato texto, es decir, que si un emoji no es un texto retorna emoji, lo cual puede confundir bastante.  
+
+    3ª MEJORA
+
+Las funciones ahora retornan None cuando no encuentran una traducción válida, lo que evita tener que repetir las comparaciones en la función principal.
+
+    4º MEJORA
+
+En la función formato_clave_legible he cambiado el nombre de las variables k y v (las cuales podrían no entenderse) por caracter y emoji. Esto hace más 
+legible el entendimiento del código.
+
+
+    LA UTILIZACIÓN DE LA IA EN EL CÓDIGO
+
+En último lugar, respecto a cómo me ha ayudado la IA en la mejora del código:
+
+La Inteligencia Artificial ha sido clave para mejorar nuestro código de varias maneras. He de decir que casi todas las mejoras ya las había contemplado pero, 
+debido a la falta de tiempo, no las había implementado. Otras, las observé más adelante revisando y profundizando acerca del código. Otras no la shabía contemplado
+pero la IA me ha hecho verlas.
+
+Trabajar con la IA ha sido una experiencia valiosa. Me ha enseñado a mejorar mis habilidades de programación y a seguir buenas prácticas, lo que hará que 
+mi código sea mejor y más fácil de trabajar en el futuro, tanto si lo trabajo yo misma como si lo utilizan otras personas.
